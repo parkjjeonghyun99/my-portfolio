@@ -11,6 +11,9 @@ export default function Home() {
             <p>📧 jhpark050599@naver.com</p>
             <p>📍 경상남도 양산시</p>
             <p>🪖 육군 병장 만기전역 (2019.01 – 2020.08)</p>
+            <a href="https://github.com/handsomeguy-pjh" target="_blank" className="flex items-center gap-1 hover:text-gray-800 transition">
+              🐙 github.com/handsomeguy-pjh
+            </a>
           </div>
         </div>
         <img src="/profile.jpg" alt="프로필 사진" className="w-28 h-36 object-cover rounded" />
@@ -18,12 +21,21 @@ export default function Home() {
 
       <section className="mb-10">
         <h2 className="text-xl font-bold border-b-2 border-gray-800 pb-1 mb-4">EDUCATION · 학력</h2>
-        <div className="flex justify-between">
-          <div>
-            <p className="font-semibold">경성대학교</p>
-            <p className="text-gray-500 text-sm">빅데이터응용통계학과 · 4년제</p>
+        <div className="space-y-4">
+          <div className="flex justify-between">
+            <div>
+              <p className="font-semibold">경성대학교</p>
+              <p className="text-gray-500 text-sm">빅데이터응용통계학과 · 4년제 · 부산광역시 남구</p>
+            </div>
+            <p className="text-sm text-gray-400">2018.03 – 2024.02 졸업</p>
           </div>
-          <p className="text-sm text-gray-400">2018.03 – 2024.02 졸업</p>
+          <div className="flex justify-between">
+            <div>
+              <p className="font-semibold">물금고등학교</p>
+              <p className="text-gray-500 text-sm">자연계열 · 경상남도 양산</p>
+            </div>
+            <p className="text-sm text-gray-400">2015.03 – 2018.02 졸업</p>
+          </div>
         </div>
       </section>
 
@@ -122,7 +134,7 @@ export default function Home() {
         <div className="flex justify-between">
           <div>
             <p className="font-semibold">포스코 청년 AI·Big Data 아카데미 32기</p>
-            <p className="text-sm text-gray-500">포스코 인재창조원 · 포스텍 인공지능연구원 주관 / 자연어처리 · 딥러닝 · 컴퓨터 비전 · 데이터 분석 실무</p>
+            <p className="text-sm text-gray-500">포스코 인재창조원 · 포스텍 인공지능연구원 주관 / 딥러닝 · 컴퓨터 비전 · 데이터 분석 실무</p>
           </div>
           <p className="text-sm text-gray-400 shrink-0">2026.02 – 2026.04</p>
         </div>
