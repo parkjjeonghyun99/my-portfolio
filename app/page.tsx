@@ -7,12 +7,13 @@ export default function Home() {
           <h1 className="text-4xl font-bold mb-1">박 정 현</h1>
           <p className="text-blue-600 font-medium text-lg mb-3">AI · 데이터 분석</p>
           <div className="text-sm text-gray-500 space-y-1">
+            <p>🎂 1999.05.05</p>
             <p>📞 010-4643-3956</p>
             <p>📧 jhpark050599@naver.com</p>
             <p>📍 경상남도 양산시</p>
             <p>🪖 육군 병장 만기전역 (2019.01 – 2020.08)</p>
-            <a href="https://github.com/handsomeguy-pjh" target="_blank" className="flex items-center gap-1 hover:text-gray-800 transition">
-              🐙 github.com/handsomeguy-pjh
+            <a href="https://github.com/parkjjeonghyun99" target="_blank" className="flex items-center gap-1 hover:text-gray-800 transition">
+              🐙 github.com/parkjjeonghyun99
             </a>
           </div>
         </div>
