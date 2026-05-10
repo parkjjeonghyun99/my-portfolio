@@ -65,7 +65,7 @@ export default function Home() {
             { label: "Language", items: ["Python"] },
             { label: "ML / DL", items: ["scikit-learn", "YOLOv8", "OpenCV", "Qwen2.5-VL-32B-Instruct-AWQ"] },
             { label: "Data Analysis", items: ["pandas", "NumPy", "matplotlib", "seaborn", "통계 가설검정"] },
-            { label: "Infra / Tools", items: ["Linux", "Git", "Jupyter", "VS Code"] },
+            { label: "Infra / Tools", items: ["Linux", "Git", "Jupyter", "VS Code", "Next.js", "Vercel"] },
           ].map(({ label, items }) => (
             <div key={label} className="flex gap-4">
               <p className="w-32 text-gray-500 shrink-0">{label}</p>
@@ -135,7 +135,7 @@ export default function Home() {
         <div className="flex justify-between">
           <div>
             <p className="font-semibold">포스코 청년 AI·Big Data 아카데미 32기</p>
-            <p className="text-sm text-gray-500">포스코 인재창조원 · 포스텍 인공지능연구원 주관 / 딥러닝 · 컴퓨터 비전 · 데이터 분석 실무</p>
+            <p className="text-sm text-gray-500">포스코 인재창조원 · 포스텍 인공지능연구원 주관 / 자연어처리 · 딥러닝 · 컴퓨터 비전 · 데이터 분석 실무</p>
           </div>
           <p className="text-sm text-gray-400 shrink-0">2026.02 – 2026.04</p>
         </div>
