@@ -135,7 +135,7 @@ export default function Home() {
         <div className="flex justify-between">
           <div>
             <p className="font-semibold">포스코 청년 AI·Big Data 아카데미 32기</p>
-            <p className="text-sm text-gray-500">포스코 인재창조원 · 포스텍 인공지능연구원 주관 / 자연어처리 · 딥러닝 · 컴퓨터 비전 · 데이터 분석 실무</p>
+            <p className="text-sm text-gray-500">포스코 인재창조원 · 포스텍 인공지능연구원 주관 / 자연어 처리 · 딥러닝 · 컴퓨터 비전 · 데이터 분석 실무</p>
           </div>
           <p className="text-sm text-gray-400 shrink-0">2026.02 – 2026.04</p>
         </div>
